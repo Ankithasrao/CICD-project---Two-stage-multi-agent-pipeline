@@ -37,10 +37,10 @@ sudo apt-get install jenkins
 ```
 ##### **Note: ** By default, Jenkins will not be accessible to the external world due to the inbound traffic restriction by AWS. Open port 8080 in the inbound traffic rules as show below.
 
-- ###### EC2 > Instances > Click on
-- ###### In the bottom tabs -> Click on Security
-- ###### Security groups
-- ###### Add inbound traffic rules as shown in the image (you can just allow TCP 8080 as well, in my case, I allowed All traffic).
+- ##### EC2 > Instances > Click on
+- ##### In the bottom tabs -> Click on Security
+- ##### Security groups
+- ##### Add inbound traffic rules as shown in the image (you can just allow TCP 8080 as well, in my case, I allowed All traffic).
 
 <img width="2374" height="396" alt="image" src="https://github.com/user-attachments/assets/c9a46139-df0d-4038-b1d4-3574758289c9" />
 
@@ -77,11 +77,11 @@ sudo apt-get install jenkins
 
 #### Step 4 : Install the Docker Pipeline plugin in Jenkins
 
-- ###### Log in to Jenkins.
-- ###### Go to Manage Jenkins > Manage Plugins.
-- ###### In the Available tab, search for "Docker Pipeline".
-- ###### Select the plugin and click the Install button.
-- ###### Restart Jenkins after the plugin is installed.
+- ##### Log in to Jenkins.
+- ##### Go to Manage Jenkins > Manage Plugins.
+- ##### In the Available tab, search for "Docker Pipeline".
+- ##### Select the plugin and click the Install button.
+- ##### Restart Jenkins after the plugin is installed.
 
 <img width="2784" height="1112" alt="image" src="https://github.com/user-attachments/assets/6a36d0bd-257e-401d-a9c4-ec1858e5dd89" />
 
